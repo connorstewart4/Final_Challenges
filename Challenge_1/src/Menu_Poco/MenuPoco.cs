@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-public class MenuPoco : List<MenuPoco>
+public class MenuPoco
 {
     public MenuPoco(int mealNumber, string mealName, string description, string ingredients, decimal price)
     {
@@ -12,6 +12,7 @@ public class MenuPoco : List<MenuPoco>
         Ingredients = ingredients;
         Price = price;
     }
+    public MenuPoco (){}
 
     public int MealNumber { get; set; }
     public string MealName { get; set; }

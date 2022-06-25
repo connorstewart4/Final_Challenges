@@ -1,2 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Menu_UI UI = new Menu_UI(); 
+UI.Run();

@@ -1,8 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  
+
   <ItemGroup>
     <ProjectReference Include="..\Menu_Poco\Menu_Poco.csproj" />
   </ItemGroup>
+
+  
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
