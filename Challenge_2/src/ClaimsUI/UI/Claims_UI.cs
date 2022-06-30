@@ -74,7 +74,7 @@ using System.Threading.Tasks;
         static Claims newClaim()
         {
             Console.Clear();
-            Console.WriteLine("Enter the claim type:");
+            Console.WriteLine("Enter the claim type car/house/theft:");
             string claimType = Console.ReadLine().ToLower();
             int ClaimType;
             switch (claimType)
